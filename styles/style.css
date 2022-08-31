@@ -70,6 +70,13 @@ main{
  }
 .selection-panel{
     width: 312px;
+    height: 312px;
+    background-color: #161616;
+}
+.selection-panel{
+    width: 312px;
+    height: 312px;
+    background-color: #161616;
 }
  .live-box{
     margin: 20px;
