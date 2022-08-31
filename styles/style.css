@@ -266,4 +266,32 @@ main{
     .blog-content{
         width: 335px;
     }
+    /* Footer */
+ footer{
+    background-color: #161616;
+    margin-top: 30px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ footer h1{
+    padding-top: 30px;
+    color: #ffffff;
+ }
+.footer-links{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+ .footer-links a{
+    text-decoration: none;
+    color: #B9B9B9;
+    padding-top: 10px;
+ }
+ footer hr{
+    color: #B9B9B9;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+ }
 }
