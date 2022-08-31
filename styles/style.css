@@ -199,9 +199,9 @@ main{
     }
     /* All middle Content */
     .all-middle-content{
-        width: 210px;
+        width: 335px;
         margin-top: 30px;
-        display: flex;
+        display: inline;
         justify-content: space-between;
         column-gap:24px
      }
@@ -254,5 +254,16 @@ main{
     }
     .content-box{
         display: none;
+    }
+     /* Individual Content Box */
+    .content-box{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .content-box img{
+        width: 100%;
+    }
+    .blog-content{
+        width: 335px;
     }
 }
