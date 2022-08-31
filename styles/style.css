@@ -58,7 +58,7 @@ main{
     margin-top: 130px;
     display: flex;
     justify-content: space-between;
-    column-gap:25px
+    column-gap:24px
  }
  /* Individual Content Box */
  .content-box{
@@ -67,7 +67,7 @@ main{
     gap: 20px;
  }
  .content-box img{
-    width: 99%;
+    width: 100%;
  }
  .blog-content{
     width: 300px;
