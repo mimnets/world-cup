@@ -21,6 +21,28 @@ main{
     border-radius: 5px;
     background-color: black;
 }
+/* Media query for header container for Mobile Device wtih max-688 */
+@media only screen  and (max-width: 688px){
+    .header-container{
+        width: 350px;
+        height: 646px;
+        border-radius: 5px;
+        background-color: black;
+    }
+    .header-content{
+        width: 258px;
+        height: 178px;
+    }
+    .header-title{
+        font-size: 5px;
+    }
+    .header-image img{  
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* header-title  */
 .header-title{
     color: #FFFFFF;
     font-size: 60px;
