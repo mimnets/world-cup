@@ -65,19 +65,9 @@ main{
     justify-content: space-between;
     column-gap:24px
  }
- /* Individual Content Box */
- .content-box{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
- }
- .content-box img{
-    width: 100%;
- }
- .blog-content{
-    width: 250px;
- }
-.selection-panel{
+
+ /* selection panel */
+ .selection-panel{
     width: 312px;
     height: 312px;  
     background-color: #161616;
@@ -128,7 +118,18 @@ main{
 .live-box{
     margin: 20px;
  }
-
+ /* Individual Content Box */
+ .content-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+ }
+ .content-box img{
+    width: 100%;
+ }
+ .blog-content{
+    width: 250px;
+ }
  /* Footer */
  footer{
     background-color: #161616;
@@ -196,28 +197,62 @@ main{
         width: 233px;
         height: 245px;
     }
-}
-/* }
-.short-text{
-    display: inline-block;
-    color: #FFFFFF;
-    font-size: 10px;
-}
-.full-text{
-    display: none;
-}
-.header-content a{
-    font-size: 10px;
-    color: #FFFFFF;
-    background-color: #DD0000;
-    border-radius: 5px;
-    text-decoration: none;
-} */
+    /* All middle Content */
+    .all-middle-content{
+        width: 210px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        column-gap:24px
+     }
+    /*selection panel */
+    .selection-panel{
+        width: 312px;
+        height: 312px;  
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .upcomming{
+        margin-top: 20px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 150px;
+        height: 35px;
+        padding: 10px;
+        border: 1px solid #B9B9B9;
+    }
+    .upcomming a{
+        color:#161616;
+    }
+    .all-group{
+        margin-top: 20px;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        width: 100px;
+        height: 35px;
+        padding: 10px;
+        border: 1px solid #B9B9B9;
 
-/* header image */
-
-/* .header-image img{
-    margin-top: 65px;  
-    width: 233px;
-    height: 245px;
-} */
+    }
+    .all-group a{
+        color:#161616;
+    }
+    .blog-button{
+        margin-top: 20px;
+        width: 100px;
+        height: 35px;
+        background: #DD0000;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .blog-button a{
+        color:#FFFFFF;
+    }
+    .content-box{
+        display: none;
+    }
+}
