@@ -63,6 +63,7 @@ main{
     justify-content: space-between;
     column-gap:24px
  }
+ /* Individual Content Box */
  .content-box{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
