@@ -21,41 +21,25 @@ main{
     border-radius: 5px;
     background-color: black;
 }
-/* Media query for header container for Mobile Device wtih max-688 */
-@media only screen  and (max-width: 688px){
-    .header-container{
-        width: 350px;
-        height: 646px;
-        border-radius: 5px;
-        background-color: black;
-    }
-    .header-content{
-        width: 258px;
-        height: 178px;
-    }
-    .header-title{
-        font-size: 5px;
-    }
-    .header-image img{  
-        width: 100px;
-        height: 100px;
-    }
-}
-
-/* header-title  */
-.header-title{
-    color: #FFFFFF;
-    font-size: 60px;
-    font-weight: 700;
-}
 .header-content{
     width: 500px;
     height: 420px;
     margin-top: 111px;
     margin-left: 106px;
 }
-.header-content h4{
+/* header-title  */
+.header-title{
     color: #FFFFFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.full-text{
+    display: inline-block;
+    color: #FFFFFF;
+}
+.short-text{
+    display: none;
 }
 .header-content a{
     padding: 16px 25px;
@@ -68,7 +52,7 @@ main{
 
 /* header image */
 
-.header-image img{  
+.header-image{  
     padding-top: 30px;
     width: 581px;
     height: 613px;
@@ -172,3 +156,54 @@ main{
     width: 100%;
     border: 1px solid rgba(255, 255, 255, 0.1);
  }
+
+ /* Media query for header container for Mobile Device wtih max-688 */
+@media screen and (max-width:480px){
+    /* header container */
+.header-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 334px;
+    height: 472px;
+    border-radius: 5px;
+    background-color: black;
+}
+/* header-title  */
+.header-title{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.header-content{
+        width: 200px;
+        height: 120px;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+}
+/* }
+.short-text{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 10px;
+}
+.full-text{
+    display: none;
+}
+.header-content a{
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    border-radius: 5px;
+    text-decoration: none;
+} */
+
+/* header image */
+
+/* .header-image img{
+    margin-top: 65px;  
+    width: 233px;
+    height: 245px;
+} */
