@@ -22,10 +22,7 @@ main{
     background-color: black;
 }
 .header-content{
-    width: 500px;
-    height: 420px;
-    margin-top: 111px;
-    margin-left: 106px;
+    margin-left: 100px;
 }
 /* header-title  */
 .header-title{
@@ -37,6 +34,8 @@ main{
 .full-text{
     display: inline-block;
     color: #FFFFFF;
+    font-size: 15px;
+    padding-bottom: 50px;
 }
 .short-text{
     display: none;
@@ -52,7 +51,7 @@ main{
 
 /* header image */
 
-.header-image{  
+.header-image img{  
     padding-top: 30px;
     width: 581px;
     height: 613px;
